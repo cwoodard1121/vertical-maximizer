@@ -42,6 +42,11 @@ public class Constants {
             return m / 1000;
         }
 
+        //TODO: MAKE WORK
+        public static Trail lookup(String resortName, String trailName) {
+            return null;
+        }
+
 
 
     }
