@@ -1,11 +1,15 @@
 package constants;
 
+import resort.Resort;
 import trails.Trail;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Constants {
+
+    public static final HashMap<String,Resort> resorts = new HashMap<>();
 
     public static final class DistanceConstants {
 
@@ -17,11 +21,8 @@ public class Constants {
 
         public static boolean METRIC_SYSTEM = true;
 
-        public static final class BlueMountainConstants {
 
-            public static List<Trail> trails = new ArrayList<>();
 
-        }
 
 
         /**
@@ -43,7 +44,7 @@ public class Constants {
         }
 
         //TODO: MAKE WORK
-        public static Trail lookup(String resortName, String trailName) {
+        public static Trail lookup(Resort r, String trailName) {
             return null;
         }
 
