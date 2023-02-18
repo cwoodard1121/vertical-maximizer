@@ -29,6 +29,7 @@ public class Trail {
     /**
      * Run this method ONLY when data has been filled
      */
+    // this was init but forgot to remove
 
     public double length() {
         return length;
